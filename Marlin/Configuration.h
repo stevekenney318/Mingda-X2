@@ -23,7 +23,7 @@
 
 // 选择机器型号
 // #define R3_PRO    // R3_pro:max
-// #define R4_PRO    // R4_pro:pro
+#define R4_PRO    // R4_pro:pro
 
 // 使用了st芯片
 // #define ST32_SHIP
@@ -1547,7 +1547,7 @@
     #define GRID_MAX_POINTS_X 6 //调平点阵6*6
     #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
   #else
-    #define GRID_MAX_POINTS_X 4 //调平点阵4*4
+    #define GRID_MAX_POINTS_X 5 //调平点阵4*4
     #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
   #endif
 
